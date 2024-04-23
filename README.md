@@ -23,7 +23,7 @@ The primary goal of this project is to assess the credit risk and capital adequa
     * capital requirement calculation
 
   ## Tools Used
-   * MySQL
+   * MySQL (Stored Procedure, CTE, Join, Variables etc. )
    * Python (Pandas, Numpy, SciPy)
    * Jupyter Notebook
    

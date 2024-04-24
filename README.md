@@ -4,7 +4,7 @@
 The primary goal of this project is to assess the credit risk and capital adequacy of the personal retail loan products portfolio of a financial institution via the calculation of PD, LGD, and ultimately RWA.
 
 ## Highlights of Project Steps
-1. Data cleaning<br/>Data quality was assessed for model implementation and abnormal values of TDS and GDS smaller than 0 were detected, which were inconsistent with their definition. 0 was set to the incorrect TDS and GDS value. 0 was set to 'Arrears days' which shows null
+1. Data cleaning<br/>Data quality was assessed for model implementation and abnormal values of TDS and GDS smaller than '0' were detected, which were inconsistent with their definition. '0' was set to replace the incorrect TDS and GDS values. '0' was set to 'Arrears days' which shows null
 
 2. Exploratory Data Analysis
    <br/>PD (Profitability of Default) Calculation:

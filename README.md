@@ -27,8 +27,9 @@ Data quality was assessed for model implementation and abnormal values of TDS an
    ![temp table!](https://github.com/user-attachments/assets/af025809-dd46-4290-b264-121ae4ac4673)
 
    
- * performed data cleaning, data aggregation, and ETL for the 7 model drivers
+ * performed data extraction, data aggregation, and data transformation for the 7 model drivers<br/>
 
+   ![model drivers](https://github.com/user-attachments/assets/be877319-12cd-453a-a593-630777aa3630)<br/>
 
 
 

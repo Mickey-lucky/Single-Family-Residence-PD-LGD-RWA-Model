@@ -71,17 +71,17 @@ Begin
          , RemainingPrincipal_excl_Partner
          , RemainingPrincipal_excl_Partner + IFNull(Partner_Participation,0)				as RemainingPrincipal_incl_Partner
          , Appraisal_Value
-         , Loan_Rate/100                                         as Interest_Rate
+         , Loan_Rate/100                                                                    as Interest_Rate
          , Term
-         , TIMESTAMPDIFF(month, Funded_Date, SL_Date)        as Age_At_SL
+         , TIMESTAMPDIFF(month, Funded_Date, SL_Date)                                       as Age_At_SL
          , Postal_Code
-         , LEFT(Postal_Code, 3)                              as FSA
+         , LEFT(Postal_Code, 3)                                                             as FSA
          , Province
          , City
-         , IFNULL(Arrears_Days, 0)                           as Arrears_Days
+         , IFNULL(Arrears_Days, 0)                                                          as Arrears_Days
          , Arrears_Status
-         , IF(Funding_GDS / 100 > 1, 1, Funding_GDS / 100)   as Funding_GDS_Ratio
-         , IF(Funding_TDS / 100 > 1, 1, Funding_TDS / 100)   as Funding_TDS_Ratio
+         , IF(Funding_GDS / 100 > 1, 1, Funding_GDS / 100)                                  as Funding_GDS_Ratio
+         , IF(Funding_TDS / 100 > 1, 1, Funding_TDS / 100)                                  s Funding_TDS_Ratio
          , CASE  WHEN Underwriter_Code = 'PRM'		Then 'PRIME'
                  WHEN Branch in ( '2000', '2001','2010', '2011')	THEN 'PRIME'
                  WHEN Underwriter_Code = 'CMA'		Then 'Alt'
@@ -619,4 +619,3 @@ DELIMITER ;
 
 
 call Retail_PD_Model_Implementation('Y2018', 'Dec');
-

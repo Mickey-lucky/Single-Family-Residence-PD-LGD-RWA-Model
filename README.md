@@ -19,13 +19,20 @@ Data quality was assessed for model implementation and abnormal values of TDS an
 
  model driver specification is outlined in the following pic
 
- ![PD model model driver specification!](https://github.com/user-attachments/assets/8d3da9be-3026-4cbd-9989-bdaff7f90650)<br/>
+   ![PD model model driver specification!](https://github.com/user-attachments/assets/8d3da9be-3026-4cbd-9989-bdaff7f90650)<br/>
    
- * created temp tables to store data temporarily
+ * for readability and simplicity, created temp tables to store data temporarily<br/>
 
+ 
+   ![temp table!](https://github.com/user-attachments/assets/af025809-dd46-4290-b264-121ae4ac4673)
 
    
  * performed data cleaning, data aggregation, and ETL for the 7 model drivers
+
+
+
+
+
  * Aggregated relevant fields for required 7 input model drivers
  * Implemented data transformation based on model specification and fit WOE (weight of evidence) to each model driver
  * Applied regression model to calculate PD core

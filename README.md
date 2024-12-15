@@ -23,10 +23,11 @@ Data quality was assessed for model implementation and abnormal values of TDS an
    
  * For readability and simplicity, created temp tables to store extracted data temporarily<br/>
 
- 
    ![temp table!](https://github.com/user-attachments/assets/af025809-dd46-4290-b264-121ae4ac4673)
 
-   
+
+
+  
   * Performed data extraction, data aggregation, and data transformation for the 7 model drivers<br/> (2 work examples screenshots shown below)
 
    ![model drivers](https://github.com/user-attachments/assets/be877319-12cd-453a-a593-630777aa3630)<br/>
@@ -34,8 +35,12 @@ Data quality was assessed for model implementation and abnormal values of TDS an
    ![model drivers](https://github.com/user-attachments/assets/738d2f47-1440-4d34-be7a-feb35b914a4b)
 
 
+
  * Applied WOE (weight of evidence) transformation to 6 model drivers <br/>
-   ![PD model]()
+ 
+   ![WOE transformation](https://github.com/user-attachments/assets/6373f60a-c714-409e-bd04-6edcbce675f2)
+
+
    
  * Applied regression model to calculate PD core (displayed below) <br/>
 

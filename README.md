@@ -48,7 +48,7 @@ Data quality was assessed for model implementation and abnormal values of TDS an
     * capital requirement calculation
 
   ## Tools Used
-   * MySQL (Stored Procedure, CTE, Join, Variables etc. )
+   * MySQL (Stored Procedure, CTE, Join, Variables, etc. )
    * Python (Pandas, Numpy, SciPy)
    * Jupyter Notebook
    

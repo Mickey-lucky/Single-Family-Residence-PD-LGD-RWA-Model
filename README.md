@@ -17,9 +17,11 @@ Data quality was assessed for model implementation and abnormal values of TDS an
    * TDS and GDS
    * Unemployment rate 2 quarters difference
 
- Model driver specification is outlined in the following pic
+   ------Model driver specification is outlined in the following pic
 
-   ![PD model model driver specification!](https://github.com/user-attachments/assets/8d3da9be-3026-4cbd-9989-bdaff7f90650)<br/>
+   ![PD model model driver specification!](https://github.com/user-attachments/assets/6f458a4a-1362-425f-8ef3-156a9ee24d90)<br/>
+
+   
    
  * For readability and simplicity, created temp tables to store extracted data temporarily<br/>
 
@@ -36,7 +38,7 @@ Data quality was assessed for model implementation and abnormal values of TDS an
 
 
 
- * Applied WOE (weight of evidence) transformation to 6 model drivers <br/>
+ * Applied WOE (weight of evidence) transformation to 6 model drivers (part of work example)<br/>
  
    ![WOE transformation](https://github.com/user-attachments/assets/6373f60a-c714-409e-bd04-6edcbce675f2)
 

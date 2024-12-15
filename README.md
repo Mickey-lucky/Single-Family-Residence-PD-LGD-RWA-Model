@@ -34,13 +34,20 @@ Data quality was assessed for model implementation and abnormal values of TDS an
    ![model drivers](https://github.com/user-attachments/assets/738d2f47-1440-4d34-be7a-feb35b914a4b)
 
 
- * Applied WOE (weight of evidence) transformation to 6 model drivers 
- * Applied regression model to calculate PD core
+ * Applied WOE (weight of evidence) transformation to 6 model drivers <br/>
+   ![PD model]()
+   
+ * Applied regression model to calculate PD core (displayed below) <br/>
+
+   ![PD model](https://github.com/user-attachments/assets/8bd5c38a-e28e-4143-9459-17865c58366c)
+
 
    <br/>LGD (Loss Given Default) Calculation:
     * Aggregated relevant fields for required 6 input model drivers
     * Implemented data transformation based on model specification and fit WOE (weight of evidence) to each model driver
     * Applied regression model to calculate LGD core
+  
+   
 
 
    <br/>RWA (Risk of Assessts) Calculation:
